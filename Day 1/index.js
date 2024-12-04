@@ -26,7 +26,14 @@ try {
         return sum + Math.abs(num1 - list2[index])
     }, 0)
 
-    console.log(sum)
+    console.log("Sum is: ", sum)
+
+
+    const sim_score = list1.reduce((sim_score, num1, index) => {
+        return sim_score + num1 * list2.filter(num2 => num2 === num1 ).length
+    }, 0)
+
+    console.log("Sim score is: ", sim_score)
 
 } catch (err) {
     console.error('Error reading file:', err);
