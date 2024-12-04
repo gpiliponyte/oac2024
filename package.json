@@ -1,0 +1,17 @@
+{
+  "name": "aoc-2024-day-1",
+  "version": "1.0.0",
+  "description": "Amazing solution",
+  "main": "Day 1/index.js",
+  "scripts": {
+    "start": "node Day 1/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Greta Piliponyte",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
