@@ -47,9 +47,6 @@ try {
     const correct_list_sum = lists.reduce((sum, list) => {
         const elements = list.split(" ");
         const isCorrect = isListCorrect(elements, 1)
-        if (isCorrect === 0) {
-            console.log(list, !!isCorrect)
-        }
         return sum + isCorrect}, 0)
 
     console.log("Correct list sum: ", correct_list_sum)
